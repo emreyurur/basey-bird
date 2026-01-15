@@ -28,11 +28,11 @@ const GameCanvas = () => {
   const tryAgainButtonRef = useRef({ x: 0, y: 0, width: 0, height: 0 });
 
   // Game constants - FINE-TUNED FOR LESS SENSITIVITY
-  const GRAVITY = 0.45; // Balanced gravity for controlled descent
-  const JUMP_FORCE = -6.5; // Reduced jump strength for heavier feel & micro-adjustments
+  const GRAVITY = 0.28; // Very gentle gravity for smooth, controlled descent
+  const JUMP_FORCE = -4.8; // Light jump force for staying centered
   const PIPE_WIDTH = 60;
   const PIPE_GAP = 220;
-  const PIPE_SPEED = 2.5;
+  const PIPE_SPEED = 1.8; // Slower pipe movement for easier gameplay
   const BIRD_RADIUS = 20;
   const PIPE_SPAWN_INTERVAL = 120;
   const FIRST_PIPE_DELAY = 60;

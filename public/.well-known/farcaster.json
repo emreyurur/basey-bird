@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Basey Bird",
+    "iconUrl": "https://basey-bird-inl8.vercel.app/icon.png",
+    "homeUrl": "https://basey-bird-inl8.vercel.app",
+    "imageUrl": "https://basey-bird-inl8.vercel.app/opengraph-image",
+    "buttonTitle": "Play Now",
+    "splashImageUrl": "https://basey-bird-inl8.vercel.app/icon.png",
+    "splashBackgroundColor": "#0052FF",
+    "webhookUrl": "https://basey-bird-inl8.vercel.app/api/webhook"
+  }
+}
