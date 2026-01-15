@@ -695,7 +695,3 @@ const GameCanvas = () => {
 };
 
 export default GameCanvas;
-function setScore(score: number) {
-  throw new Error('Function not implemented.');
-}
-
