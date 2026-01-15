@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useFarcasterSDK } from '@/hooks/useFarcasterSDK';
 
 type GameState = 'welcome' | 'playing' | 'collision' | 'gameOver';
 
@@ -26,6 +27,9 @@ const GameCanvas = () => {
   const gameStateRef = useRef<GameState>('welcome');
   const animationFrameRef = useRef<number | undefined>(undefined);
   const tryAgainButtonRef = useRef({ x: 0, y: 0, width: 0, height: 0 });
+  
+  // Initialize Farcaster SDK and call ready()
+  const { isSDKReady, context } = useFarcasterSDK();
 
   // Game constants - FINE-TUNED FOR LESS SENSITIVITY
   const GRAVITY = 0.28; // Very gentle gravity for smooth, controlled descent
