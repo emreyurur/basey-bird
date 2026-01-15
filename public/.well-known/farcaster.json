@@ -9,9 +9,9 @@
     "name": "Basey Bird",
     "iconUrl": "https://basey-bird-inl8.vercel.app/icon.png",
     "homeUrl": "https://basey-bird-inl8.vercel.app",
-    "imageUrl": "https://basey-bird-inl8.vercel.app/opengraph-image",
+    "imageUrl": "https://basey-bird-inl8.vercel.app/preview.png",
     "buttonTitle": "Play Now",
-    "splashImageUrl": "https://basey-bird-inl8.vercel.app/icon.png",
+    "splashImageUrl": "https://basey-bird-inl8.vercel.app/splash.png",
     "splashBackgroundColor": "#0052FF",
     "webhookUrl": "https://basey-bird-inl8.vercel.app/api/webhook"
   }
